@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+main {
+   display: flex;
+   flex-direction: column;
+    background-image:url(../imgs/office-background.jpg) ; 
+
+
+}
