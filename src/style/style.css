@@ -1,12 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
+    
+}
+body{
+    background: grey;
 
 }
+
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 24px;
+    border-radius: 8px;
+    width: 229px;
+    height: 49px;
+}
+
 main {
    display: flex;
    flex-direction: column;
     background-image:url(../imgs/office-background.jpg) ; 
 
+
+}
+header {
+    display: flex;
+    background-color: transparent;
+    gap: 234px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 109px;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+h1, h2, h3, a, button{
+    font-family: "Alfa Slab One", serif;
+    color: white;
+
+}
+nav > a {
+    font-size: 24px;
+    text-decoration: none;
 
 }
