@@ -35,22 +35,10 @@ h1 {
     color: #FFFFFF;
 
 }
-
 p {
     font-family: Alata, serif;
     color: white;
     font-size: 32px;
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../imgs/img-background/main-background.svg);
-    align-items: flex-end;
-    width: 100%;
-    gap: 32px;
-
 
 }
 
@@ -83,7 +71,18 @@ button {
     cursor: pointer;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imgs/img-background/main-background.svg);
+    align-items: flex-end;
+    width: 100%;
+    gap: 32px;
+    padding-bottom: 57px;
+}
+
 .text-wrapper {
+
     display: flex;
     flex-direction: column;
     width: 811px;
@@ -105,5 +104,23 @@ button {
     font-size: 32px;
     text-align: right;
     width: 62%;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    gap: 160px;
+    padding: 60px 0px 91px 0px;
+}
+.info-wrapper {
+    display: flex;
+    width: 88%;
+    gap: 85px;
+
+}
+.info-wrapper>img {
+    width: 45%;
 
 }
