@@ -124,3 +124,32 @@ section {
     width: 45%;
 
 }
+.brands-list {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #161616;
+    position: relative;
+    width: 100%;
+    height: 131px;
+    
+}
+
+.icons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    animation: scroll 15s linear infinite;
+    width: 3500px;
+
+}
+.icons-wrapper>img{
+    width: 120px;    
+
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-1750px)}
+}
+/* carrosel esta quebrando e eu ja passei mais de 2 horas tentando arrumar, vai ficar assim mesmo */
