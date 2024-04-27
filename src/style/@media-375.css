@@ -27,7 +27,7 @@
     }
 
     h1 {
-        font-size: 64px;
+        font-size: 40px;
 
     }
 
@@ -52,5 +52,16 @@
         font-size: 24px;
         text-align: center;
     }
+    section {
+        gap: 39px;
 
+    }
+    .info-wrapper>img {
+        width: 100%;
+        
+    }
+
+    .info-wrapper {
+        flex-direction: column;
+    }
 }
