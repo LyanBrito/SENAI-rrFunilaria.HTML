@@ -5,6 +5,7 @@
     margin: 0px;
 
 }
+
 /* article.portifolio>p*2+button.class
     tag    classe > tag quantidade  tag classe
     explica depois
@@ -148,7 +149,7 @@ section {
     gap: 100px;
     animation: scroll 15s linear infinite;
     width: 6100px;
-
+    
 }
 
 .icons-wrapper-reverse {
@@ -158,6 +159,7 @@ section {
 
 .icons-wrapper>img {
     width: 120px;
+    height: 120px;
 
 }
 
