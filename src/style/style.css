@@ -145,7 +145,7 @@ section {
     gap: 100px;
     animation: scroll 15s linear infinite;
     width: 6100px;
-
+    
 }
 
 .icons-wrapper-reverse {
@@ -155,7 +155,7 @@ section {
 
 .icons-wrapper>img {
     width: 120px;
-
+    height: 120px;
 }
 
 @keyframes scroll {
@@ -164,6 +164,6 @@ section {
     }
 
     100% {
-        transform: translateX(-3070px)
+        transform: translateX(-3075px)
     }
 }
