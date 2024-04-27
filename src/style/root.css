@@ -1,0 +1,16 @@
+:root{
+    --white: #ffff;
+    --green-100: #196A56;
+    --yellow-100: #7B7724;
+    --red-100: #7E2317;
+}
+
+.green-card{
+    background-color: var(--green-100);
+}
+.yellow-card{
+    background-color: var(--yellow-100);
+}
+.red-card{
+    background-color: var(--red-100);
+}

@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&display=swap');
-
+@import url(./root.css);
 * {
     padding: 0px;
     margin: 0px;
 
 }
 
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-3075px)
+    }
+}
+
 /* article.portifolio>p*2+button.class
     tag    classe > tag quantidade  tag classe
+    button:button -> <button type="button">
     explica depois
 */
 body {
@@ -116,6 +127,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     background-color: #161616;
     gap: 160px;
     padding: 60px 0px 91px 0px;
@@ -149,7 +161,7 @@ section {
     gap: 100px;
     animation: scroll 15s linear infinite;
     width: 6100px;
-    
+
 }
 
 .icons-wrapper-reverse {
@@ -162,12 +174,55 @@ section {
     height: 120px;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
 
-    100% {
-        transform: translateX(-3075px)
-    }
+h3 {
+    font-size: 32px;
+    width: 75%;
+}
+.cards-section {
+    height: 955px;
+    background-image: url(../imgs/img-background/diferencial-background.svg);
+    padding: 60px 0px 0px 0px;
+
+}
+.cards {
+    display: flex;
+    gap: 85px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 430px;
+    width: 430px;
+    background-color: aqua;
+    border-radius: 16px;
+}
+.card-wrapper>p {
+    font-size: 24px;
+    width: 85%;
+
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 220px;
+    gap: 20px;
+    text-align: center;
+    
+}
+.card-wrapper>a {
+    font-family: Alata, serif;
+    text-decoration: underline;
+
+}
+.card>img {
+    width: 261px;
+    height: 261px;
 }
