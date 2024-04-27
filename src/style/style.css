@@ -43,17 +43,6 @@ p {
 
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    background-image: url(../imgs/img-background/main-background.svg);
-    align-items: flex-end;
-    width: 100%;
-    gap: 32px;
-
-
-}
-
 header {
     display: flex;
     background-color: transparent;
@@ -83,7 +72,18 @@ button {
     cursor: pointer;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imgs/img-background/main-background.svg);
+    align-items: flex-end;
+    width: 100%;
+    gap: 32px;
+    padding-bottom: 57px;
+}
+
 .text-wrapper {
+
     display: flex;
     flex-direction: column;
     width: 811px;
@@ -106,4 +106,64 @@ button {
     text-align: right;
     width: 62%;
 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    gap: 160px;
+    padding: 60px 0px 91px 0px;
+}
+
+.info-wrapper {
+    display: flex;
+    width: 88%;
+    gap: 85px;
+
+}
+
+.info-wrapper>img {
+    width: 45%;
+
+}
+
+.brands-list {
+    display: flex;
+    overflow: hidden;
+    background-color: #161616;
+    position: relative;
+    width: 100%;
+    height: 131px;
+
+}
+
+.icons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    animation: scroll 15s linear infinite;
+    width: 6100px;
+
+}
+
+.icons-wrapper-reverse {
+    animation: scroll 15s linear infinite reverse;
+
+}
+
+.icons-wrapper>img {
+    width: 120px;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-3070px)
+    }
 }
