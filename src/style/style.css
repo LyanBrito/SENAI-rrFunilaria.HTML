@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&display=swap');
 @import url(./root.css);
+
 * {
     padding: 0px;
     margin: 0px;
@@ -51,7 +52,9 @@ h1 {
 
 }
 
-p {
+p,
+textarea,
+input {
     font-family: Alata, serif;
     color: white;
     font-size: 32px;
@@ -79,12 +82,13 @@ button {
     display: flex;
     align-items: center;
     background-color: transparent;
-    border: 2px solid white;
+    border: 3px solid white;
     font-size: 24px;
     border-radius: 8px;
     padding: 8px 32px 8px 32px;
     height: 49px;
     cursor: pointer;
+    width: fit-content;
 }
 
 main {
@@ -98,23 +102,31 @@ main {
 }
 
 .text-wrapper {
-
+    width: 38%;
     display: flex;
     flex-direction: column;
-    width: 42%;
-    align-items: flex-end;
-    margin-right: 104px;
-    gap: 28px;
-
 }
 
 .text-wrapper>h1 {
+    font-family: Alata, serif;
+
+}
+
+.header-wrapper {
+    gap: 28px;
+    width: 42%;
+    align-items: flex-end;
+    margin-right: 104px;
+}
+
+.header-wrapper>h1 {
+    font-family: "Alfa Slab One", serif;
     font-size: 130px;
     text-align: right;
 
 }
 
-.text-wrapper>p {
+.header-wrapper>p {
     font-family: Alata, serif;
     color: white;
     font-size: 32px;
@@ -179,12 +191,15 @@ h3 {
     font-size: 32px;
     width: 75%;
 }
+
 .cards-section {
     height: 955px;
-    background-image: url(../imgs/img-background/diferencial-background.svg);
+    background-image: url(../imgs/img-background/diferenciais-background.svg);
+    background-size: cover;
     padding: 60px 0px 0px 0px;
 
 }
+
 .cards {
     display: flex;
     gap: 85px;
@@ -202,6 +217,7 @@ h3 {
     background-color: aqua;
     border-radius: 16px;
 }
+
 .card-wrapper>p {
     font-size: 24px;
     width: 85%;
@@ -215,14 +231,67 @@ h3 {
     margin-bottom: 220px;
     gap: 20px;
     text-align: center;
-    
+
 }
+
 .card-wrapper>a {
     font-family: Alata, serif;
     text-decoration: underline;
 
 }
+
 .card>img {
     width: 261px;
     height: 261px;
+}
+
+article {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    gap: 22.60%;
+    width: 100%;
+    height: 610px;
+}
+
+.column {
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 32%;
+
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 50px;
+    resize: none;
+    width: 100%;
+}
+textarea{
+    height: 50px;
+
+}
+form>button {
+    font-family: Alata, serif;
+
+}
+::placeholder {
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+input:focus,
+textarea:focus {
+    outline: none;
 }
