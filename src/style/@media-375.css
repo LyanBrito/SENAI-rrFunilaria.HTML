@@ -28,10 +28,6 @@
 
     }
 
-    button {
-        font-size: 11px;
-
-    }
 
     main {
         gap: 41px;
@@ -90,10 +86,11 @@
 
     }
 
-    h3 {
+    h3, h4 {
         font-size: 24px;
 
     }
+
     .cards-section {
         background-image: url(../imgs/img-background/diferenciais-background-375.svg);
         height: auto;
@@ -101,6 +98,7 @@
         padding: 60px 0px 132px 0px;
 
     }
+
     .cards {
         flex-direction: column;
 
@@ -131,5 +129,35 @@
     .card-wrapper>p {
         font-size: 16px;
 
+    }
+
+    article {
+        flex-direction: column;
+        height: 780px;
+        gap: 32px;
+    }
+
+    form {
+        align-items: center;
+        width: auto;
+    }
+
+    .column {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    article>.text-wrapper {
+        width: 89%;
+    
+    }
+    article>.text-wrapper>h1 {
+        font-size: 40px;
+        
+    }
+    article>.text-wrapper>p {
+        font-size: 20px;
+        text-align: left;
     }
 }
