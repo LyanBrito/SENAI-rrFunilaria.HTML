@@ -89,6 +89,7 @@ button {
     height: 49px;
     cursor: pointer;
     width: fit-content;
+    gap: 10px;
 }
 
 main {
