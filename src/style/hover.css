@@ -1,0 +1,26 @@
+* {
+    transition: all .2s ease-in;
+
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.39);
+
+}
+
+a:hover { 
+    text-decoration: underline;
+
+}
+.card:hover .card-wrapper{
+    margin-bottom: 240px;
+
+}
+.footer-icons>a:hover path{
+    fill: #FFFFFF;  
+
+}
+.footer-wrapper>a:hover {
+    color: #FFFFFF;
+
+}
