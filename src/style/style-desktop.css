@@ -17,11 +17,6 @@
     }
 }
 
-/* article.portifolio>p*2+button.class
-    tag    classe > tag quantidade  tag classe
-    button:button -> <button type="button">
-    explica depois
-*/
 body {
     display: flex;
     flex-direction: column;
@@ -234,6 +229,7 @@ h3 {
     margin-bottom: 220px;
     gap: 20px;
     text-align: center;
+    transition: all .15s cubic-bezier(0, 0, 0.29);
 
 }
 
@@ -332,10 +328,11 @@ footer>div{
     gap: 20px;
 
 }
-.footer-wrapper>p, .footer-wrapper>a {
+.footer-wrapper>a, .footer-wrapper>p {
     font-size: 17px;
     font-family: Alata, serif;
     text-decoration: underline;
+    color: #AAAAAA;
 }
 .footer-wrapper>h3 {
     font-family: Alata, serif;
@@ -348,12 +345,7 @@ footer>h1 {
     width: 17%;
 
 }
-.footer-wrapper>div>button{
-    border: none;
-    padding: 0px;
-
-}
-.footer-wrapper>div{
+.footer-icons{
     display: flex;
     gap: 21px;
 
