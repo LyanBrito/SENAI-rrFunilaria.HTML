@@ -86,7 +86,8 @@
 
     }
 
-    h3, h4 {
+    h3,
+    h4 {
         font-size: 24px;
 
     }
@@ -150,14 +151,62 @@
 
     article>.text-wrapper {
         width: 89%;
-    
+
     }
+
     article>.text-wrapper>h1 {
         font-size: 40px;
-        
+
     }
+
     article>.text-wrapper>p {
         font-size: 20px;
         text-align: left;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        height: 170px;
+    }
+
+    footer>div {
+        gap: 7px;
+        width: 80%;
+
+    }
+
+    .footer-wrapper {
+        gap: 8px;
+        width: 81px;
+        height: unset;
+
+    }
+
+    .footer-wrapper>p,
+    .footer-wrapper>a {
+        font-size: 6px;
+    }
+
+    .footer-wrapper>h3 {
+        font-size: 10px;
+    }
+
+    footer>h1 {
+        font-size: 10px;
+        width: 17%;
+
+
+    }
+
+    .footer-wrapper>div {
+        gap: 10px;
+
+
+    }
+    button>img {
+        width: 16px;
+        height: 16px;
+
     }
 }
